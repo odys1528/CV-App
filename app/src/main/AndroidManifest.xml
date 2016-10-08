@@ -28,6 +28,9 @@
         <activity
             android:name=".LinksActivity"
             android:label="@string/links" />
+        <activity
+            android:name=".ActivitiesListActivity"
+            android:label="@string/activities" />
     </application>
 
 </manifest>

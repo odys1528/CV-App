@@ -22,7 +22,8 @@
         android:layout_below="@+id/linkedin_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
-        android:id="@+id/git_text" />
+        android:id="@+id/git_text"
+        android:fontFamily="casual" />
 
     <TextView
         android:text="@string/club"
@@ -31,7 +32,8 @@
         android:layout_marginTop="55dp"
         android:id="@+id/club_text"
         android:layout_below="@+id/git_text"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual" />
 
     <TextView
         android:text="@string/notld"
@@ -40,7 +42,8 @@
         android:layout_below="@+id/club_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
-        android:id="@+id/notld_text" />
+        android:id="@+id/notld_text"
+        android:fontFamily="casual" />
 
     <TextView
         android:text="@string/linkedin"
@@ -49,6 +52,7 @@
         android:layout_marginTop="100dp"
         android:id="@+id/linkedin_text"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual" />
 
 </RelativeLayout>
