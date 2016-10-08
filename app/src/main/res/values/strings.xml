@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jolanta Zakrzewska CV</string>
+    <string name="about_me">about me</string>
+    <string name="interests">interests</string>
+    <string name="skills">skills</string>
+    <string name="activities">activities</string>
+    <string name="links">links</string>
+    <string name="test">blabla</string>
+    <string name="privacy">I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 0883).</string>
+    <string name="about_me_text">I am a student. Blabla</string>
+    <string name="phone">728 756 301</string>
+    <string name="mail">jolanta.zakrzewska@orange.pl</string>
+    <string name="linkedin">LinkedIn Profile</string>
+    <string name="github">GitHub Repo</string>
+    <string name="club">Science Club Fanpage</string>
+    <string name="notld">Night Of The Living Devs - article</string>
+</resources>

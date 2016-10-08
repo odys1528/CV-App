@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="comodys1528.github.jolantazakrzewskacv.MainActivity"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/main"
+        android:id="@+id/standing_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/mail_text"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:text="@string/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skills"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/about_me"
+        android:layout_alignEnd="@+id/about_me"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:fontFamily="casual"
+        android:layout_alignStart="@+id/about_me" />
+
+    <Button
+        android:text="@string/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activities"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/skills"
+        android:layout_alignStart="@+id/skills"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:fontFamily="casual"
+        android:layout_alignEnd="@+id/skills" />
+
+    <Button
+        android:text="@string/interests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/interests"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/activities"
+        android:layout_alignStart="@+id/activities"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:fontFamily="casual"
+        android:layout_alignEnd="@+id/activities" />
+
+    <Button
+        android:text="@string/links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/links"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/interests"
+        android:layout_alignStart="@+id/interests"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:fontFamily="casual"
+        android:layout_alignEnd="@+id/interests" />
+
+    <TextView
+        android:text="@string/privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/privacy_policy_text"
+        android:textAlignment="textEnd"
+        android:textSize="6sp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:text="@string/about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_me"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
+        android:textAlignment="textStart"
+        android:layout_marginStart="29dp"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:fontFamily="casual"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_text"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/privacy_policy_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:text="@string/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail_text"
+        android:fontFamily="casual"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_above="@+id/phone_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>
