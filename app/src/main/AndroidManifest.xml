@@ -31,6 +31,9 @@
         <activity
             android:name=".ActivitiesListActivity"
             android:label="@string/activities" />
+        <activity
+            android:name=".ActivitiesItemActivity"
+            android:label="@string/activities" />
     </application>
 
 </manifest>

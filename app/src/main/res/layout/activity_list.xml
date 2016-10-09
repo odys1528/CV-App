@@ -6,7 +6,8 @@
         android:id="@+id/activity_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/activities_title" />
+        android:layout_above="@+id/activities_title"
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:text="@string/activities"
