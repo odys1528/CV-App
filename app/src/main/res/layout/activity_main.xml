@@ -19,7 +19,8 @@
         android:id="@+id/standing_img"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/mail_text"
-        android:layout_marginStart="20dp" />
+        android:layout_marginStart="20dp"
+        android:layout_above="@+id/mail_text" />
 
     <Button
         android:text="@string/skills"
