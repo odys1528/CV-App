@@ -15,4 +15,12 @@
     <string name="club">Science Club Fanpage</string>
     <string name="notld">Night Of The Living Devs - article</string>
     <string name="checkBox">is certified</string>
+    <string name="programming_skills">programming</string>
+    <string name="graphics_skills">graphics</string>
+    <string name="languages_skills">languages</string>
+    <string name="other_skills">other</string>
+    <string name="programming_list">C++\nC\nJava\nPython</string>
+    <string name="graphics_list">Gimp\nPhotoshop</string>
+    <string name="languages_list">PL\nENG\nGER</string>
+    <string name="other_list">Joomla!\nAndroid Dev</string>
 </resources>

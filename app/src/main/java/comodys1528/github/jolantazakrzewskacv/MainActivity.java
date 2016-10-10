@@ -47,6 +47,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button skills = (Button) findViewById(R.id.skills);
+
+        skills.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(getApplicationContext(), SkillsActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         Button phone = (Button) findViewById(R.id.phone_text);
 

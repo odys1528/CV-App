@@ -34,6 +34,9 @@
         <activity
             android:name=".ActivitiesItemActivity"
             android:label="@string/activities" />
+        <activity
+            android:name=".SkillsActivity"
+            android:label="@string/skills" />
     </application>
 
 </manifest>
