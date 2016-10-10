@@ -38,6 +38,7 @@
 
     <CheckBox
         android:text="@string/checkBox"
+        android:theme="@style/GreyCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/is_certified_checkBox"
