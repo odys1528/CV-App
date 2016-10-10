@@ -23,4 +23,42 @@
     <string name="graphics_list">Gimp\nPhotoshop</string>
     <string name="languages_list">PL\nENG\nGER</string>
     <string name="other_list">Joomla!\nAndroid Dev</string>
+
+    <string name="name_0">PUT.NET Science Club</string>
+    <string name="name_1">IT Academic Day 2015</string>
+    <string name="name_2">Night Of The Living Devs 2015</string>
+    <string name="name_3">GirlzCamp 2015</string>
+    <string name="name_4">Code Academy: Python</string>
+    <string name="name_5">Java and Android Online Course</string>
+    <string name="name_6">Technical Support at the PUT</string>
+    <string name="name_7">Boot Camp for Women in ICT</string>
+    <string name="name_8">IT Academic Day 2016</string>
+    <string name="date_0">10.2015 - now</string>
+    <string name="date_1">28.10.2015</string>
+    <string name="date_2">11-12.12.2015</string>
+    <string name="date_3">5.03.2016</string>
+    <string name="date_4">06.2016</string>
+    <string name="date_5">07-08.2016</string>
+    <string name="date_6">07-08.2016</string>
+    <string name="date_7">26-30.09.2016</string>
+    <string name="date_8">19.10.2016</string>
+    <string name="short_description_0">membership in the club, event organising, participation in competitions</string>
+    <string name="short_description_1">organisation, graphic design</string>
+    <string name="short_description_2">hackaton in Microsoft (Warsaw)</string>
+    <string name="short_description_3">Construct 2 course</string>
+    <string name="short_description_4">programming course</string>
+    <string name="short_description_5">online programming courses</string>
+    <string name="short_description_6">creating registration system for volunteers ("Noc Naukowców")</string>
+    <string name="short_description_7">Intel camp for best ICT students</string>
+    <string name="short_description_8">organisation, social media</string>
+    <string name="full_description_0">blabla</string>
+    <string name="full_description_1">blabla</string>
+    <string name="full_description_2">blabla</string>
+    <string name="full_description_3">blabla</string>
+    <string name="full_description_4">blabla</string>
+    <string name="full_description_5">blabla</string>
+    <string name="full_description_6">blabla</string>
+    <string name="full_description_7">blabla</string>
+    <string name="full_description_8">blabla</string>
+
 </resources>

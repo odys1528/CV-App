@@ -36,17 +36,4 @@
         android:layout_below="@+id/activity_name"
         android:layout_alignStart="@+id/activity_name" />
 
-    <CheckBox
-        android:text="@string/checkBox"
-        android:theme="@style/GreyCheck"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/is_certified_checkBox"
-        android:layout_marginTop="25dp"
-        android:fontFamily="casual"
-        android:textSize="15sp"
-        android:clickable="false"
-        android:textColor="?android:attr/textColorTertiary"
-        android:layout_below="@+id/activity_description"
-        android:layout_alignStart="@+id/activity_description" />
 </RelativeLayout>
