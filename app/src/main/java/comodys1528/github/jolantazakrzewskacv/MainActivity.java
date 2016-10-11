@@ -58,6 +58,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button interests = (Button) findViewById(R.id.interests);
+
+        interests.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(getApplicationContext(), InterestsActivity.class);
+                startActivity(intent);
+            }
+        });
 
         Button phone = (Button) findViewById(R.id.phone_text);
 
