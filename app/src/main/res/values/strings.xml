@@ -6,6 +6,7 @@
     <string name="activities">activities</string>
     <string name="links">links</string>
     <string name="test">blabla</string>
+    <string name="long_test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in pharetra ex. Praesent porta dapibus ornare. Maecenas ligula magna, tincidunt sed ornare at, hendrerit eu dui. Aliquam nisl nisl, pulvinar a lectus ultrices, elementum suscipit dolor. </string>
     <string name="privacy">I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 0883).</string>
     <string name="about_me_text">I am a student. Blabla</string>
     <string name="phone">728 756 301</string>

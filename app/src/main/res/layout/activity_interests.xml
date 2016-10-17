@@ -1,59 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="66dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fantasy"
+            android:id="@+id/fantasy_image"
+            android:layout_below="@+id/development_image"
+            android:layout_alignEnd="@+id/cosplay_image" />
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/history"
+            android:id="@+id/history_image"
+            android:layout_below="@+id/development_image"
+            android:layout_alignStart="@+id/development_image" />
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="152dp"
             app:srcCompat="@drawable/cosplay"
-            android:id="@+id/imageView1"
-            android:layout_marginEnd="191dp"
+            android:layout_marginTop="28dp"
+            android:id="@+id/cosplay_image"
             android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/history_image" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/development"
+            android:id="@+id/development_image"
+            android:layout_marginEnd="41dp"
+            android:layout_alignTop="@+id/cosplay_image"
             android:layout_alignParentEnd="true" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cosplay"
-            android:id="@+id/imageView2"
-            android:layout_marginTop="18dp"
-            android:layout_marginStart="182dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cosplay"
-            android:layout_marginBottom="36dp"
-            android:id="@+id/imageView3"
-            android:layout_alignParentBottom="true"
-            android:layout_alignEnd="@+id/imageView1" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cosplay"
-            android:id="@+id/imageView4"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/imageView2" />
     </RelativeLayout>
 
     <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
+        android:text="@string/long_test"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-        android:id="@+id/textView" />
-
-</RelativeLayout>
+        android:id="@+id/description"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>
