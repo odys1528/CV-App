@@ -24,7 +24,10 @@
     <string name="graphics_list">Gimp\nPhotoshop</string>
     <string name="languages_list">PL\nENG\nGER</string>
     <string name="other_list">Joomla!\nAndroid Dev</string>
-
+    <string name="url_linkedin">https://pl.linkedin.com/in/jolanta-zakrzewska-203025120</string>
+    <string name="url_git">https://github.com/odys1528</string>
+    <string name="url_club">https://www.facebook.com/put.net/</string>
+    <string name="url_notld">http://www.codziennypoznan.pl/artykul/2015-12-15/sukces-studentow-politechniki-poznanskiej-na-imprezie-microsoft</string>
     <string name="name_0">PUT.NET Science Club</string>
     <string name="name_1">IT Academic Day 2015</string>
     <string name="name_2">Night Of The Living Devs 2015</string>

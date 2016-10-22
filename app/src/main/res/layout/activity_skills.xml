@@ -237,17 +237,6 @@
         android:progressTint="@color/colorPrimary"/>
 
     <TextView
-        android:text="@string/skills"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/skills_title"
-        android:fontFamily="casual"
-        android:textSize="30sp"
-        android:layout_marginEnd="20dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
         android:text="@string/other_skills"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -20,7 +20,7 @@ public class LinksActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                String url = "https://pl.linkedin.com/in/jolanta-zakrzewska-203025120";
+                String url = getString(R.string.url_linkedin);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
@@ -33,7 +33,7 @@ public class LinksActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                String url = "https://github.com/odys1528";
+                String url = getString(R.string.url_git);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
@@ -46,7 +46,7 @@ public class LinksActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                String url = "https://www.facebook.com/put.net/";
+                String url = getString(R.string.url_club);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
@@ -59,7 +59,7 @@ public class LinksActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                String url = "http://www.codziennypoznan.pl/artykul/2015-12-15/sukces-studentow-politechniki-poznanskiej-na-imprezie-microsoft";
+                String url = getString(R.string.url_notld);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);

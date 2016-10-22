@@ -4,18 +4,6 @@
     android:background="#FFFFFF" >
 
     <TextView
-        android:text="@string/links"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="11dp"
-        android:id="@+id/links_title"
-        android:textSize="30sp"
-        android:fontFamily="casual"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
         android:text="@string/github"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
