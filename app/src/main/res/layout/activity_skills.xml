@@ -11,7 +11,7 @@
         android:id="@+id/c_bar"
         android:max="100"
         android:progress="60"
-        android:minHeight="22dp"
+        android:minHeight="23dp"
         android:minWidth="100dip"
         android:progressTint="@color/colorPrimary"/>
 
@@ -23,22 +23,9 @@
         android:layout_alignStart="@+id/c_bar"
         android:id="@+id/java_bar"
         android:max="100"
-        android:minHeight="22dp"
+        android:minHeight="23dp"
         android:minWidth="100dp"
         android:progress="67"
-        android:progressTint="@color/colorPrimary"/>
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/python_bar"
-        android:max="100"
-        android:minHeight="20dp"
-        android:minWidth="100dp"
-        android:progress="70"
-        android:layout_below="@+id/java_bar"
-        android:layout_alignStart="@+id/java_bar"
         android:progressTint="@color/colorPrimary"/>
 
     <ProgressBar
@@ -49,23 +36,11 @@
         android:max="100"
         android:progress="67"
         android:minWidth="100dp"
-        android:minHeight="22dp"
+        android:minHeight="23dp"
         android:layout_marginStart="26dp"
-        android:layout_alignTop="@+id/programming_list"
-        android:layout_toEndOf="@+id/programming_list"
+        android:layout_alignTop="@+id/cpp_text"
+        android:layout_toEndOf="@+id/cpp_text"
         android:progressTint="@color/colorPrimary" />
-
-    <TextView
-        android:text="@string/programming_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/programming_list"
-        android:layout_marginTop="52dp"
-        android:fontFamily="casual"
-        android:textAlignment="textEnd"
-        android:layout_marginStart="79dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/programming" />
 
     <TextView
         android:text="@string/programming_skills"
@@ -83,29 +58,30 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="@string/languages_list"
+        android:text="@string/pl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:id="@+id/languages_list"
+        android:id="@+id/pl_text"
         android:textSize="15sp"
         android:fontFamily="casual"
-        android:layout_below="@+id/programming_list"
-        android:layout_alignEnd="@+id/programming_list"
+        android:layout_below="@+id/python_text"
+        android:layout_alignEnd="@+id/python_text"
         android:textAlignment="textEnd" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/languages_list"
+        android:layout_alignTop="@+id/pl_text"
         android:layout_alignStart="@+id/python_bar"
         android:id="@+id/pl_bar"
         android:max="100"
         android:minHeight="23dp"
         android:minWidth="100dp"
         android:progress="100"
-        android:progressTint="@color/colorPrimary"/>
+        android:progressTint="@color/colorPrimary"
+        android:layout_alignRight="@+id/pl_text" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
@@ -118,110 +94,22 @@
         android:minHeight="23dp"
         android:minWidth="100dp"
         android:progress="75"
-        android:progressTint="@color/colorPrimary"/>
+        android:progressTint="@color/colorPrimary"
+        android:layout_alignRight="@+id/eng_text" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/languages_list"
-        android:layout_alignStart="@+id/eng_bar"
-        android:id="@+id/ger_bar"
-        android:max="100"
-        android:minHeight="23dp"
-        android:minWidth="100dp"
-        android:progress="50"
-        android:progressTint="@color/colorPrimary"/>
-
-    <TextView
-        android:text="@string/languages_skills"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/languages_skills"
-        android:fontFamily="casual"
-        android:textSize="15sp"
-        android:rotation="-90"
-        android:layout_gravity="center"
-        android:layout_below="@+id/pl_bar"
-        android:layout_toStartOf="@+id/languages_list"
-        android:textStyle="normal|bold" />
-
-    <TextView
-        android:text="@string/graphics_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:id="@+id/graphics_list"
-        android:textSize="15sp"
-        android:fontFamily="casual"
-        android:textAlignment="textEnd"
-        android:layout_below="@+id/languages_list"
-        android:layout_alignEnd="@+id/languages_list" />
-
-    <TextView
-        android:text="@string/graphics_skills"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
-        android:textSize="15sp"
-        android:fontFamily="casual"
-        android:id="@+id/graphics_skills"
-        android:rotation="-90"
-        android:layout_gravity="center"
-        android:layout_alignBottom="@+id/graphics_list"
-        android:layout_alignStart="@+id/programming"
-        android:textStyle="normal|bold" />
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/graphics_list"
+        android:layout_alignTop="@+id/gimp_text"
         android:layout_alignStart="@+id/ger_bar"
         android:id="@+id/gimp_bar"
         android:max="100"
         android:minHeight="23dp"
         android:minWidth="100dp"
         android:progress="70"
-        android:progressTint="@color/colorPrimary"/>
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/graphics_list"
-        android:layout_alignStart="@+id/gimp_bar"
-        android:id="@+id/photoshop_bar"
-        android:max="100"
-        android:minHeight="23dp"
-        android:minWidth="100dp"
-        android:progress="50"
-        android:progressTint="@color/colorPrimary"/>
-
-    <TextView
-        android:text="@string/other_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/graphics_list"
-        android:layout_alignEnd="@+id/graphics_list"
-        android:layout_marginTop="44dp"
-        android:id="@+id/other_list"
-        android:textAlignment="textEnd"
-        android:textSize="15sp"
-        android:fontFamily="casual" />
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/other_list"
-        android:layout_alignStart="@+id/photoshop_bar"
-        android:id="@+id/joomla_bar"
-        android:max="100"
-        android:minHeight="23dp"
-        android:minWidth="100dp"
-        android:progress="70"
-        android:progressTint="@color/colorPrimary"/>
+        android:progressTint="@color/colorPrimary"
+        android:layout_alignRight="@+id/gimp_text" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleHorizontal"
@@ -234,7 +122,196 @@
         android:progress="65"
         android:minWidth="100dp"
         android:minHeight="23dp"
-        android:progressTint="@color/colorPrimary"/>
+        android:progressTint="@color/colorPrimary"
+        android:layout_alignRight="@+id/android_text" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/python_bar"
+        android:max="100"
+        android:minHeight="23dp"
+        android:minWidth="100dp"
+        android:progress="70"
+        android:progressTint="@color/colorPrimary"
+        android:layout_below="@+id/java_bar"
+        android:layout_alignStart="@+id/java_bar" />
+
+    <TextView
+        android:text="@string/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/android_text"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@+id/joomla_text"
+        android:layout_alignEnd="@+id/joomla_text" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joomla_bar"
+        android:max="100"
+        android:minHeight="23dp"
+        android:minWidth="100dp"
+        android:progress="70"
+        android:progressTint="@color/colorPrimary"
+        android:layout_alignTop="@+id/joomla_text"
+        android:layout_alignStart="@+id/photoshop_bar"
+        android:layout_alignRight="@+id/joomla_text" />
+
+    <TextView
+        android:text="@string/eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eng_text"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:layout_alignBaseline="@+id/languages_skills"
+        android:layout_alignBottom="@+id/languages_skills"
+        android:layout_alignEnd="@+id/pl_text" />
+
+    <TextView
+        android:text="@string/photoshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photoshop_text"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:layout_below="@+id/gimp_text"
+        android:layout_alignEnd="@+id/gimp_text" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ger_bar"
+        android:max="100"
+        android:minHeight="23dp"
+        android:minWidth="100dp"
+        android:progress="50"
+        android:progressTint="@color/colorPrimary"
+        android:layout_below="@+id/eng_bar"
+        android:layout_alignStart="@+id/eng_bar"
+        android:layout_alignRight="@+id/ger_text" />
+
+    <TextView
+        android:text="@string/ger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ger_text"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@+id/languages_skills"
+        android:layout_toEndOf="@+id/programming" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photoshop_bar"
+        android:max="100"
+        android:minHeight="23dp"
+        android:minWidth="100dp"
+        android:progress="50"
+        android:progressTint="@color/colorPrimary"
+        android:layout_below="@+id/gimp_bar"
+        android:layout_alignStart="@+id/gimp_bar"
+        android:layout_alignRight="@+id/photoshop_text" />
+
+    <TextView
+        android:text="@string/cpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpp_text"
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:textAlignment="textEnd"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/ger_text" />
+
+    <TextView
+        android:text="@string/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c_text"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@+id/cpp_text"
+        android:layout_toStartOf="@+id/cpp_bar" />
+
+    <TextView
+        android:text="@string/java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/java_text"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@+id/c_text"
+        android:layout_alignEnd="@+id/c_text" />
+
+    <TextView
+        android:text="@string/python"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/python_text"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:layout_below="@+id/programming"
+        android:layout_alignEnd="@+id/java_text" />
+
+    <TextView
+        android:text="@string/joomla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joomla_text"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/photoshop_text"
+        android:layout_alignEnd="@+id/photoshop_text" />
+
+    <TextView
+        android:text="@string/gimp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:id="@+id/gimp_text"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/ger_text"
+        android:layout_alignEnd="@+id/ger_text" />
+
+    <TextView
+        android:text="@string/graphics_skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:id="@+id/graphics_skills"
+        android:rotation="-90"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="11dp"
+        android:layout_alignTop="@+id/gimp_text"
+        android:layout_toStartOf="@+id/android_text" />
+
+    <TextView
+        android:text="@string/languages_skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/languages_skills"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:rotation="-90"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/pl_text"
+        android:layout_toStartOf="@+id/gimp_text" />
 
     <TextView
         android:text="@string/other_skills"
@@ -245,9 +322,9 @@
         android:textSize="15sp"
         android:rotation="-90"
         android:layout_gravity="center"
-        android:layout_marginTop="11dp"
-        android:layout_alignTop="@+id/other_list"
-        android:layout_toStartOf="@+id/other_list"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/joomla_text"
+        android:layout_alignStart="@+id/graphics_skills" />
 
 </RelativeLayout>
