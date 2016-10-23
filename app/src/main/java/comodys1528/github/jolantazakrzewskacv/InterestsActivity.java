@@ -27,7 +27,7 @@ public class InterestsActivity extends AppCompatActivity {
         fantasyImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                fantasyImage.setAnimation(anim);
+                fantasyImage.startAnimation(anim);
                 description.setText("here will appear text about FANTASY");
             }
         });
@@ -35,7 +35,7 @@ public class InterestsActivity extends AppCompatActivity {
         cosplayImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                cosplayImage.setAnimation(anim);
+                cosplayImage.startAnimation(anim);
                 description.setText("here will appear text about COSPLAY");
             }
         });
@@ -43,7 +43,7 @@ public class InterestsActivity extends AppCompatActivity {
         developmentImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                developmentImage.setAnimation(anim);
+                developmentImage.startAnimation(anim);
                 description.setText("here will appear text about SELF-DEVELOPMENT");
             }
         });
@@ -51,7 +51,7 @@ public class InterestsActivity extends AppCompatActivity {
         historyImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                historyImage.setAnimation(anim);
+                historyImage.startAnimation(anim);
                 description.setText("here will appear text about HISTORY");
             }
         });
