@@ -13,7 +13,8 @@
         android:layout_alignParentStart="true"
         android:textSize="30sp"
         android:textStyle="normal|bold"
-        android:fontFamily="casual" />
+        android:fontFamily="casual"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:text="@string/test"
@@ -24,7 +25,8 @@
         android:textSize="15sp"
         android:fontFamily="casual"
         android:layout_below="@+id/activity_date"
-        android:layout_alignStart="@+id/activity_date" />
+        android:layout_alignStart="@+id/activity_date"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:text="@string/test"
@@ -34,6 +36,7 @@
         android:fontFamily="casual"
         android:textSize="12sp"
         android:layout_below="@+id/activity_name"
-        android:layout_alignStart="@+id/activity_name" />
+        android:layout_alignStart="@+id/activity_name"
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>

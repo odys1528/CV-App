@@ -13,70 +13,14 @@
     android:background="#FFFFFF">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/main"
         android:id="@+id/standing_img"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/mail_text"
+        android:layout_above="@+id/phone_text"
+        android:layout_toEndOf="@+id/skills"
         android:layout_marginStart="20dp"
-        android:layout_above="@+id/mail_text" />
-
-    <Button
-        android:text="@string/skills"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/skills"
-        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
-        android:textAlignment="center"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/about_me"
-        android:layout_alignEnd="@+id/about_me"
-        style="@android:style/Widget.DeviceDefault.Button.Toggle"
-        android:fontFamily="casual"
-        android:layout_alignStart="@+id/about_me" />
-
-    <Button
-        android:text="@string/activities"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/activities"
-        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
-        android:textAlignment="center"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/skills"
-        android:layout_alignStart="@+id/skills"
-        style="@android:style/Widget.DeviceDefault.Button.Toggle"
-        android:fontFamily="casual"
-        android:layout_alignEnd="@+id/skills" />
-
-    <Button
-        android:text="@string/interests"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/interests"
-        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
-        android:textAlignment="center"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/activities"
-        android:layout_alignStart="@+id/activities"
-        style="@android:style/Widget.DeviceDefault.Button.Toggle"
-        android:fontFamily="casual"
-        android:layout_alignEnd="@+id/activities" />
-
-    <Button
-        android:text="@string/links"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/links"
-        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
-        android:textAlignment="center"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/interests"
-        android:layout_alignStart="@+id/interests"
-        style="@android:style/Widget.DeviceDefault.Button.Toggle"
-        android:fontFamily="casual"
-        android:layout_alignEnd="@+id/interests" />
+        android:layout_marginBottom="25dp" />
 
     <TextView
         android:text="@string/privacy"
@@ -90,20 +34,6 @@
         android:layout_marginBottom="0dp" />
 
     <Button
-        android:text="@string/about_me"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/about_me"
-        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
-        android:textAlignment="textStart"
-        android:layout_marginStart="29dp"
-        style="@android:style/Widget.DeviceDefault.Button.Toggle"
-        android:fontFamily="casual"
-        android:layout_marginTop="21dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="@string/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,7 +43,8 @@
         android:textStyle="normal|bold"
         android:layout_above="@+id/privacy_policy_text"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:textSize="16sp" />
 
     <Button
         android:text="@string/mail"
@@ -126,6 +57,87 @@
         android:textAllCaps="false"
         android:layout_above="@+id/phone_text"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="@string/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skills"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        style="@style/Base.Theme.AppCompat.Dialog.Alert"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/about_me"
+        android:layout_alignStart="@+id/about_me"
+        android:layout_alignEnd="@+id/about_me"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activities"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        style="@style/Base.Theme.AppCompat.Dialog.Alert"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/skills"
+        android:layout_alignStart="@+id/skills"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/skills"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/interests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/interests"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        style="@style/Base.Theme.AppCompat.Dialog.Alert"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/activities"
+        android:layout_alignStart="@+id/activities"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/activities"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/links"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textAlignment="center"
+        style="@style/Base.Theme.AppCompat.Dialog.Alert"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/interests"
+        android:layout_alignStart="@+id/interests"
+        android:layout_alignEnd="@+id/interests"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_me"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small"
+        android:textAlignment="textStart"
+        style="@style/Base.Theme.AppCompat.Light.Dialog.Alert"
+        android:fontFamily="casual"
+        android:layout_marginTop="46dp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="35dp"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
